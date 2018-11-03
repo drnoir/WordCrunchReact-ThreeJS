@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import * as three from 'three';
 import _ from 'lodash';
-import ThreeScene from './ThreeScene';
+import TextThree from './TextThree';
 
 
 class App extends Component {
@@ -60,7 +60,7 @@ class App extends Component {
       </form>
   </div>
         </header>
-        <ThreeScene />
+        <TextThree />
       </div>
     );
   }
